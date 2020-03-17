@@ -1,3 +1,5 @@
+# book.rb
+
 class Book
   attr_accessor :author, :page_count
   attr_reader :title, :genre
@@ -16,5 +18,4 @@ class Book
     @genre = genre
     GENRES << genre
   end
-
 end
